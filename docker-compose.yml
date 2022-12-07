@@ -1,0 +1,32 @@
+version: '3.1'
+
+services:
+  backend_app:
+    image: christiandev123/tcc_backend
+    environment:
+      - DATABASE=tcc
+      - DB_USER=root
+      - DB_PASSWORD=123
+      - DB_HOST=mysql
+    ports:
+      - 3000:3000
+    restart: always
+  frontend_app:
+    image: christiandev123/tcc_frontend
+    ports:
+      - 81:5000
+    environment:
+      - REACT_APP_BACKEND_HOST=http://christianproject.com.br
+  mysql:
+    image: mariadb
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=123
+      - MYSQL_ROOT_PASSWORD=123
+      - MYSQL_DATABASE=tcc
+    ports:
+      - 3306:3306
+    volumes:
+      - data_app:/var/lib/mysql
+volumes:
+  data_app: {}

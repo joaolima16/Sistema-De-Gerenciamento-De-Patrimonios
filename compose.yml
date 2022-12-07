@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+  backend_app:
+    image:
+  frontend_app:
+    image:
+  mysql:
+    image: mariadb
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=123
+      - MYSQL_ROOT_PASSWORD=123
+      - MYSQL_DATABASE=tcc
+    volumes:
+      - data_app:/var/lib/mysql
+volumes:
+  data_app: {}
