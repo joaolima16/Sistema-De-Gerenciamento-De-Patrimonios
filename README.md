@@ -72,8 +72,4 @@ Instale Backend e Frontend com npm ou yarn
   npm install 
   
 ```
-    
-## Screenshots
-## Resultado Do Site:
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
