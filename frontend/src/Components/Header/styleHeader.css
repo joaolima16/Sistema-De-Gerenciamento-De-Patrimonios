@@ -1,0 +1,43 @@
+header{
+    background-color: var(--header);
+    height: 60px;
+    width: 100%;
+    position: relative;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.header-content-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#senai-logo{
+    height: 20px;
+    width: 100px;
+    margin-left: 12px;
+}
+
+#menu-button{
+    margin: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+#button-exit{
+    background: none;
+    border: 30px;
+    cursor: pointer;
+    margin-right: 25px;
+    color: #fff;
+}
+
+.header-light {
+    background-color: var(--header);
+}

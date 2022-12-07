@@ -1,0 +1,265 @@
+.appAside {
+  width: 70%;
+  background-color: #f74444e5;
+}
+
+.appForm {
+  width: 50%;
+  background-color: #FFFFFF;
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.pageSwitcher {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+  color: #BA3B3B;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 160%;
+  line-height: 34px;
+  text-align: center;
+}
+
+.formCenter {
+  margin-bottom: 100px;
+}
+
+.formTitle {
+  color: #BF2121;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.formTitleLink {
+  color: #BF2121;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.formTitleLink:first-child {
+  margin-left: 0;
+}
+
+.formTitleLink-active {
+  color: #BF2121;
+  border-bottom: 5px solid #BF2121;
+}
+
+.formField {
+  margin-bottom: 8%;
+  /* display: flex;
+  flex-direction: initial; */
+}
+
+.formFieldLabel {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: white;
+}
+
+.formFieldInput {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+input{
+  margin-right: 10%;
+}
+
+
+.formFieldInput::placeholder {
+  color: #616e7f;
+}
+
+.formFieldButton {
+box-sizing: border-box;
+width: 130px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #A93232;
+border-radius: 20px;
+color: #913D3D;
+position:absolute;
+right: 6%;
+bottom: 20%;
+font-weight: bold;
+font-size: larger;
+}
+
+/* svg.senha1{
+  margin-top: 30%;
+} */
+
+.formFieldButton2 {
+  box-sizing: border-box;
+  width: 130px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #A93232;
+  border-radius: 20px;
+  color: #913D3D;
+  right: 6%;
+  bottom: 5%;
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 65%;
+  margin-top: 10%;
+
+}
+
+.imagemteste{
+  margin-left: 13%;
+  margin-top: 12%;
+  width: 72%;
+  height: 65%;
+}
+
+.logosenai{
+  width: 19%;
+  height: 5%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+ .logosenai2{
+  display:none;
+} 
+
+.topping{
+  color:#9d9d9d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+
+}
+
+.topping3{
+  color:#9d9d9d;
+  display: flex;
+  margin-right: 30%;
+
+}
+
+.formFieldLink{
+  color:#fd0000;
+  margin-left: 3%;
+}
+
+#errorLogin{
+  color:#BA3B3B;
+  text-align:center;
+  margin:1.5rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media(max-width: 1024px){
+  .appAside{
+    display: none;
+  }
+ 
+  .appForm{
+    width: 100%;
+  }
+
+  .formFieldButton{
+    width: 8%;
+    height: 5%;
+  }
+
+ .logosenai2{
+  width: 140px;
+  height: 40px;
+  display: inherit ;
+  margin-left: auto;
+  margin-right: auto;
+  
+ }
+
+ .pageSwitcher{
+  margin-top: 2%;
+  text-align: center;
+ }
+
+}
+.app-black {
+  background-color: rgba(0,0,0,0.5);
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.app-black .content{
+  background:#ffff ;
+  color:#000;
+  width:30%;
+  display:flex;
+  flex-direction: column;
+  padding:2rem;
+  border-radius:0.7rem;
+  gap:1rem;
+}
+
+.app-black .content .titleModal{
+  display:flex;
+  justify-content: space-between;
+}
+
+.app-black .content .titleModal h2{
+  color:#BF2121;
+  font-weight: 600;
+}
+
+.app-black .content .titleModal .exit-btn{
+  border:none;
+  background-color: inherit;
+  font-size: 1.3rem;
+  font-weight:bold;
+  color:rgba(0,0,0,0.6);
+}
+
+.app-black .content .titleModal .exit-btn:hover{
+  cursor: pointer;
+}
+
+.app-black .content label{
+  font-size: 1.1rem;
+}
+
+.app-black .content #emailInput{
+  font-size: .9rem;
+  padding: .3rem;
+  outline: none;
+}
+
+.app-black .content #send-btn{
+  width:30%;
+  height: 2.2rem;
+  margin-left:auto;
+  padding:.3rem;
+  background: inherit;
+  border: 2px solid #A93232;
+  border-radius: 1.3rem;
+  color: #913D3D;
+  font-weight: bold;
+  font-size: larger;
+}

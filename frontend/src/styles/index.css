@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+*{
+  margin:0;
+  padding:0;
+
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+:root {
+  --text-primary: #000;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #333;
+  --form-bg: #fff;
+  --header: #960d0de1;
+}
+
+[data-theme='dark'] {
+  --background: rgb(82, 82, 82);
+  --text-primary: #FFF;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #808080;
+  --form-bg: #191919;
+}

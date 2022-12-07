@@ -1,0 +1,53 @@
+.drop-all {
+  background-color: black;
+  align-items: center;
+  margin: 0 20%;
+  border: 80% solid black;
+  border-radius: 5px;
+  color: #364476;
+  margin-top: 3%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  position: relative;
+}
+
+.Department {
+  background-color: #f3f3f3;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Departmentdark {
+  background-color: #3C3C3C;
+  width: 100vw;
+  height: 100vh;
+}
+
+.etiquetas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-lixeira{
+  background-color: #7a1818;
+  border: none;
+  width: 150px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media (max-width: 470px){
+  .etiquetas{
+    display: block;
+    margin: 0;
+
+  }
+}

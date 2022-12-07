@@ -1,0 +1,13 @@
+FROM node:18-alpine
+
+EXPOSE 5000
+
+COPY .  /opt/app
+
+WORKDIR /opt/app
+
+RUN npm install -g create-react-app
+
+RUN npm install
+
+# CMD npm start

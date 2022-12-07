@@ -1,0 +1,70 @@
+.modal-user-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 250px;
+}
+
+#titleModalUser{
+    font-size: 17px;
+    color: #574E4E;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.containerInfoUser{
+    margin: 15px;
+}
+.containerInfoUser label{
+    font-size: 13px;
+}
+
+.containerInfoUser input{
+    background: #FFFFFF;
+    border: 1px solid rgba(157, 157, 157, 0.42);
+    border-radius: 2px;
+}
+
+.infoUser{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.containerButtonsModalUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.containerButtonsModalUser button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 0;
+    background: none;
+}
+
+.containerButtonsModalUser button:hover{
+    cursor: pointer;
+}
+.container-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  padding: 10px;
+}

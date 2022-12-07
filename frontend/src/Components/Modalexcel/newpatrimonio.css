@@ -1,0 +1,182 @@
+body{
+    font-family: sans-serif;  
+}
+
+.container-new-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.modalContentPatrimonio{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 600px;
+    margin: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    background-color: #fff;
+}
+
+.modalContentPatrimonio label{
+    display: block;
+    margin: 5px;
+    font-size: 13px;
+    color: #9DA5A9;
+}
+
+.modalContentPatrimonio input, select{
+    width: 200px;
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid rgba(157, 157, 157, 0.42);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.title{
+    width: 95%;
+    margin: 5px;
+}
+
+.title #title-modal{
+    font-size: 24px;
+    color: #574E4E;
+    margin-bottom: 5px;
+}
+
+.title #info-modal{
+    font-size: 12px;
+    color: #9DA5A9;
+}
+
+.containerOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.containerOne input{
+    width: 320px;
+}
+
+#selectSituation{
+    width: 300px;
+}
+
+.containerTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerTwo input, select{
+    width: 310px;
+}
+
+.containerThree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.containerThree input{
+    width: 90px;
+}
+
+.containerThree label{
+    font-size: 12px;
+}
+
+.addImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.addImage button{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background: none;
+    color: #3F48CC;
+    border: 1px solid #3F48CC;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.addImage button:hover{
+    background-color: #ededee;
+    border: 1px solid #9c9cd3;
+}
+
+.containerButton{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerButton button{
+    margin: 10px;
+}
+
+.containerButton #clear{
+   border: none;
+    font-weight: bold;
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    background: rgba(217, 217, 217, 0.2);
+    color: #0038FF;
+    border: 1px solid #D9D9D9;
+}
+
+.containerButton #new{
+    background-color: #0038FF;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    width: 210px;
+    height: 30px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.containerButton #new:hover{
+    background-color: #1035b9;
+}
+
+.containerButton #clear:hover{
+    background: rgba(123, 123, 124, 0.2);
+}
+
+@media screen and (max-width: 1500px){
+    .container-new-modal{
+        font-size: 16px;
+    }
+    .modalContentPatrimonio{
+        width: 300px;
+        height: 500px;
+    }
+    .title #title-modal{
+        font-size: 17px;
+
+    }
+    .containerButton #delete{
+        height: 30px;
+        width: 80px;
+    }
+}   

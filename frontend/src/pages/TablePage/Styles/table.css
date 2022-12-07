@@ -1,0 +1,328 @@
+body{
+    background-color: var(--background);
+    transition: background 0.2s linear;
+    overflow-x: hidden;
+}
+
+.containerUp{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    transition: all .4s;
+    background-color: var(--background);
+    color: var(--text-primary);
+    flex-direction: column;
+}
+
+.label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 5px;
+    position: relative;
+    height: 5px;
+    width: 23px;
+    float: right;
+    margin: 10px;
+
+    transform: scale(1.5);
+    cursor: pointer;
+
+    transform: translate(0px);
+}
+
+.label:active{
+    cursor: default;
+}
+
+
+.btnInfo{
+    background-color: var(--background);
+    color: var(--text-primary);
+}
+
+.btn-add-patrimonio{
+   float: left;
+   margin: 10px;
+
+}
+
+.tableContainer {
+    width: 75%;
+    overflow: hidden;   
+    border-radius: 0.5rem;
+    margin-left: 15%;
+    border-top: solid 2px #c6c6c6;
+
+}
+
+.subContainer{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+.thead {
+    color: var(--text-head);
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    background-color: var(--table-head)
+}
+
+td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;   
+}
+
+tr {
+    border-bottom-width: 1px;
+}
+
+.id-object {
+    font-weight: 600;
+    margin: 0;
+}
+
+.tabbleFooter {
+    color: #707275;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+    background-color: var(--table-head);
+    line-height: 1.5;
+}
+
+.pagination{
+    padding-top: 0.75rem;
+    color: var(--pagination-footer);
+    font-size: 0.75rem;
+    justify-content: space-between  ;
+    display: flex;
+    margin-top: 0.8rem;
+}
+
+.pagination span {
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    font-size: 0.75rem;
+}
+
+nav ul {
+    align-items: center;
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.arrows {
+    color: var(--pagination-footer);
+    padding: 0.5rem;
+    display: inline-flex;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    border-color: transparent;
+    
+}
+
+
+.numberSelected {   
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    line-height: 1.25rem;
+    font-size: 0.80rem;   
+    cursor: pointer;
+    border-width: 2px;
+    border-radius: 0.375rem;
+    border-color: transparent;
+    background-color: var(--number-selected);
+    color: var(--text-primary);
+}
+
+
+.number{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.80rem;
+    cursor: pointer;
+    border-width: 2px;
+    border-color: transparent;
+    color: var(--text-primary);
+}
+
+
+
+.tableContainer button {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.checkbtn{
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid var(--text-primary);
+    color: var(--text-primary);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 20px;
+    max-width: 100%;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.checkbtn{
+    background-color: transparent;
+    border: 1px solid var(--text-primary);
+    color: var(--text-primary);
+    border-radius: 8px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    transition: .2s ease-in;
+    margin: 15px;
+    width: 50%;
+    font-size: 50%;
+    
+}
+
+.checkbtn:hover{
+    color:#000;
+    border: solid 1px #666768;
+}
+
+.row:nth-child(2) .col:first-child{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+}
+
+.col{
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    flex-direction: row; 
+
+}
+
+.col h2{
+    font-size: 12px;
+    margin-top: 50%;
+    color: #5c5c5c;
+}
+
+.textclass{
+    margin-left: -10%;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: none;
+}
+
+.btn-finaliza{
+    background-color: #48578B;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-right: 20%;
+    margin-top: 5%;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    float: right;
+}
+
+@media  (max-width: 1070px) and (min-width: 471px){
+
+    .containerUp{
+      display: block;
+    }
+
+    .col{
+        display: flex;
+        flex: 1;
+        margin-right: 20px;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 15%;
+        flex-direction: row; 
+        width: 65%;
+    }
+
+
+    .checkbtn{
+        font-size: 20%;
+        display: flex;
+        text-align: center;
+    }
+}
+
+
+
+@media  (max-width: 470px){
+
+    .containerUp{
+        width: 100vw;
+        height: 100vh;
+        transition: all .4s;
+        background-color: var(--background);
+        color: var(--text-primary);
+        display: block;
+    }
+
+    .tableContainer {
+        width: 88%;       
+         overflow: hidden;
+        border-radius: 0.5rem;
+        margin: 30px  auto;
+    }
+
+    .col {
+        width: 100%;
+        display: block;
+        margin: 10px 70px auto;
+    }
+
+    .checkbtn{
+        width: 100%;
+        height: 30px;
+        margin:10px  0 auto;
+        font-size: 14px;
+    }
+
+}

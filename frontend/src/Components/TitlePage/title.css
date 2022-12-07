@@ -1,0 +1,14 @@
+.containerTitle{
+    color: #8b8b8b;
+    margin-bottom: 20px;
+    border-bottom: 1px solid  #cbcbcb;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   
+}
+
+.containerTitle h1{
+    margin-left: 20px;
+    margin-left: 15%;
+}

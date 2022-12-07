@@ -1,0 +1,21 @@
+/* :root{
+    --background: #ffffff;
+    --text-primary: #000;
+    --text-secondary: #000;
+    --table-head: #d5d6d7;
+    --text-head: #9e9e9e;
+    --pagination-footer: #4c4f52;
+    --number-selected: #5c5c5c;
+    --label: #111;
+}
+
+[data-theme='dark']{
+    --background: #292929;
+    --text-primary: #ffffff;
+    --text-secondary: #ffffff;
+    --text-head: #ffffff;
+    --table-head: #232240;
+    --pagination-footer: #ffffff;
+    --label: #111;
+
+} */

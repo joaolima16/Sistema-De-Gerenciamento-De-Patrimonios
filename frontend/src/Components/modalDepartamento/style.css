@@ -1,0 +1,356 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal-content-dep{
+width: 80%;
+height: 50%;
+max-width: 500px;
+background-color: #fff;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-bottom: 50px;
+}
+
+.titulo{
+color: #574E4E;
+margin-top: 0;
+}
+
+.btn-ver{
+  background-color: #4b5781;
+  border: none;
+  width: 250px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card-total-itens{
+background-color: #fff;
+border: none;
+width: 250px;
+height: 80px;
+margin: 10px;
+border-radius: 5px;
+color:#574E4E;
+font-size: 24px;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: block;
+border: solid 1px #dcdada;
+box-shadow: 1px 1px 1px #e6e6e6;
+}
+
+.modal-content h1{
+color: #574E4E;
+margin-top: 0;
+}
+
+.link-criar{
+text-align:right;
+margin: 5px 0;
+position:relative;
+}
+
+.container-info-cad{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container-nome{
+flex-direction: column;
+display: flex;
+margin-top: 10px;  
+width: 60%;
+}
+
+.container-identificacao{
+flex-direction: column;
+display: flex;
+padding: 10px;
+justify-content: right;
+margin-top: 10px;
+
+}
+.container-identificacao input{
+  width: 95%;
+}
+
+.input-nome, .input-nome-novo{
+width: 100%;
+background-color: #fff;
+border: solid 1px #D9D9D9;
+height: 35px;
+}
+
+.input-ident, .input-ident-novo{
+background-color: #fff;
+border: solid 1px #D9D9D9;
+width:100%;
+height: 35px;
+}
+
+.btn-voltar{
+width: 110px;
+height: 40px;
+background: rgba(217, 217, 217, 0.224);
+color: #0038FF ;
+border: none;
+border-radius: 3px;
+float: left;
+transition: all 0.2s ease-in-out;
+}
+
+.btn-voltar:hover{
+background: rgba(123, 123, 124, 0.2);
+}
+
+.btn-cadastrar{
+width: 110px;
+height: 40px;
+background-color: #0038FF;
+border: none;
+border-radius: 3px;
+color: #fff;
+float: right;
+transition: all 0.2s ease-in-out;
+}
+
+.btn-cadastrar:hover{
+background-color: #1035b9;
+}
+
+.container-button{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+margin-top: 15px;
+}
+
+.container-info-novo input{
+outline: none;
+height: 30px;
+margin-top: 5px;
+background-color: #fff;
+
+}
+
+label{
+color: #9DA5A9;
+}
+
+.container-menu{
+display: flex;
+flex-direction: column;
+}
+
+.container-menu label{
+margin-left: 20px;
+}
+
+.select{
+text-align: left;
+color: #999999;
+font-size: 16px;
+cursor: pointer;
+width: 95%;
+background-color: #fff;
+border: solid 1px #99999962;
+padding: 10px;
+transition: all 0.1s ease-in-out;
+margin:15px;
+height: 40px;
+}
+
+
+
+.card-total-itens h1{
+font-size: 24px;
+}
+
+.card-total-itens p{
+color: #000
+}
+
+.container-etiquetas{
+display: flex;  
+}
+
+.modal-overlay-dep{
+background-color:#48578b44;
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container-button button{
+font-size: large;
+float: right;
+cursor: pointer;
+}
+
+.link-criar{
+color: #616780;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+margin-right: 15px;
+}
+
+.link-criar:hover{
+color: #0118eb;
+text-decoration: underline;
+}
+
+@media(max-width:720px) {
+h1{
+  font-size: large;
+}
+
+.modal-content{
+  width: 50%;
+  height: 40%;
+}
+
+.btn-ver, .card-total-itens{
+  width: 150px;
+  text-align: center;
+  display: block;
+}
+
+.card-total-itens h1, .btn-ver{
+  font-size: 18px;
+}
+
+.container-menu label{
+  margin-left: 0; 
+  margin-bottom: 5px; 
+}
+
+label{
+  font-size: small;
+}
+
+.btn-cadastrar, .btn-voltar{
+  justify-content: space-between;
+  align-items: center; 
+}
+.titulo{
+  margin-bottom: 15px;
+}
+.select{
+  padding: 10px;
+  margin: 0px;
+  width: 320px;
+}
+.container-identificacao{
+  padding: 0px;
+}
+
+.container-info-cad{
+  flex-direction: column;
+  align-items: flex-start
+}
+.container-info-cad input{
+  width: 320px;
+}
+.link-criar{
+  margin-right: 0;
+}
+}
+
+
+@media (max-width: 470px){
+  .container-etiquetas{
+    display: block;
+    flex-direction: column;
+  }
+}
+
+
+@media(max-width:720px) {
+  h1{
+    font-size: large;
+  }
+
+  .modal-content{
+    width: 50%;
+    height: 40%;
+  }
+
+  label{
+    font-size: small;
+  }
+
+}
+
+@media (min-width: 620px) and (max-width: 719px){
+  .modal-content{
+    height: 75% ;
+  }
+
+  .container-nome, .container-identificacao{
+    width: 90%;
+  }
+
+  .input-nome, .input-identificacao{
+    height: 30px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 619px){
+  .modal-content{
+    width: 60%;
+    height: 75%;
+  }
+
+  .container-nome, .container-identificacao, .menu-select{
+    width: 90%;
+  }
+
+  .input-nome, .input-identificacao{
+    padding: 10px;
+    width:  90%;
+  }
+}
+
+@media (max-width: 479px){
+  .modal-content{
+    width: 80%;
+    height: 40%;
+  }
+  
+  .input-nome, .input-identificacao{
+    /* padding: 10px; */
+    width:  90%;
+  
+  }
+
+  .container-nome, .container-identificacao, .menu-select{
+    width: 90%;
+  }
+
+  .container-button{
+    flex-direction: column;
+  }
+
+}

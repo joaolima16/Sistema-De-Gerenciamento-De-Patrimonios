@@ -1,0 +1,165 @@
+.container-modal-confirmar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.btn-salvar{
+  background-color: #37B334;
+  border: none;
+  width: 125px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-voltar{
+  width: 110px;
+  height: 40px;
+  padding: 10px;
+  background: rgba(217, 217, 217, 0.2);
+  color: #292929;
+  border: none;
+  border-radius: 3px;
+  float: left;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-voltar:hover{
+  background: rgba(123, 123, 124, 0.2);
+}
+
+.btn-confirmar{
+  width: 110px;
+  height: 40px;
+  padding: 10px;
+  background-color: #34aa32;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  float: right;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-confirmar:hover{
+  background-color: #298c27;
+}
+
+.container-button{
+  margin: 40px;
+}
+
+#imagemVerifica{
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+
+.modal-overlay{
+  background-color:#48578b44;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content-confirmar{
+  width: 80%;
+  max-height: 300px;
+  text-align: center;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+  color:#292929 ;
+}
+
+button{
+  padding: 5px;
+  font-size: large;
+  float: right;
+  cursor: pointer;
+}
+
+@media(max-width:720px) {
+  h1{
+    font-size: large;
+  }
+
+  .modal-content{
+    width: 50%;
+    height: 40%;
+  }
+
+  .btn-confirmar, .btn-voltar{
+    justify-content: space-between;
+    align-items: center; 
+  }
+}
+
+@media (min-width: 620px) and (max-width: 719px){
+  .modal-content{
+    height: 75% ;
+  }
+
+  .container-info{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .container-nome, .container-identificacao{
+    width: 90%;
+  }
+
+  .input-nome, .input-identificacao{
+    height: 30px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 619px){
+  .modal-content{
+    width: 60%;
+    height: 75%;
+  }
+
+  .btn-confirmar, .btn-voltar{
+    width: 40%;
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 479px){
+  .modal-content{
+    width: 80%;
+    height: 40%;
+  }
+
+  .container-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-confirmar, .btn-voltar{
+    width: 100%;
+    margin: 10px;
+  }
+
+}

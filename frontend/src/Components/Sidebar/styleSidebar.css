@@ -1,0 +1,135 @@
+
+.containerSidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #e6e6e6;
+    height: 100%;
+    width: 13%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.33);
+    top: 0;
+}
+
+.contentSidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerSidebarPerfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerSidebarPerfil h1{
+    font-size: 40px
+}
+
+.containerSidebarPerfil img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    margin: 20%;
+}
+
+.containerSidebarPerfil #cargoSidebar{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.infosPerfilSidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.containerSidebarButtons {
+    width: 100%;
+}
+
+.containerSidebarButtons button{
+    width: 100%;
+    height: 70px;
+    background: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: solid 1px #dbd8d8;
+    background-color: #dbdbdb77 ;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.containerSidebarButtons button:hover{
+    background-color: #d9dde2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.33);
+}
+
+.containerSidebarButtons p{
+    margin-left: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#iconSidebar{
+    margin-left: 20px;
+}
+
+#linkSidebar{
+    text-decoration: none;
+}
+
+@media  (max-width: 1500px) and (min-width: 470px){
+    .containerSidebarButtons{
+        justify-content: center ;
+        align-items: center;
+    }
+
+    .containerSidebarButtons button {
+        flex-direction: column;
+    }
+
+    .containerSidebarButtons p {
+        font-size: 60%;
+        margin: auto;
+    }
+
+    #iconSidebar{
+        margin: auto;
+    }
+
+    .containerSidebarPerfil img{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .infosPerfilSidebar{
+        visibility: hidden;
+    }
+}
+
+@media  (max-width: 470px){
+    .containerSidebar{
+        width: 100%;
+        height: 93%;
+        z-index: 1;        
+        margin-top: 16%;
+    }
+
+    .containerSidebarButtons p, img {
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      font-size: 18px;
+    }
+
+}
+
+
+

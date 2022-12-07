@@ -1,0 +1,347 @@
+.containerModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+#light{
+    color: rgb(0, 0, 0);
+}
+
+#dark{
+    color: rgb(255, 255, 255);
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-content input{
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(157, 157, 157, 0.42);
+}
+
+.modal-content label{
+    font-size: 16px;
+    display: block;
+    margin-left: 10px;
+}
+
+.modal-overlay{
+    background-color:#48578b44;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.headerModal{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 90%;
+}
+
+.headerModal h1{
+    font-size: 27px;
+    color: #574E4E;
+    margin-top: 0;
+}
+
+.headerModal p{
+    font-size: 14px;
+    color: #9DA5A9;
+}
+
+
+.modal-content form{
+    margin: 10px;
+}
+
+.containerUpModal{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.containerUpModal img{
+    width: 250px;
+    height: 250px;
+}
+
+.containerUpModal select{
+    margin: 10px;
+    width: 203px;
+    height: 25px;
+    border: 1px solid rgba(157, 157, 157, 0.42);
+}
+
+.containerUpModal option{
+    font-size: 16px;
+}
+
+#modelo{
+    width: 430px;
+}
+
+#ativo{
+    color: #2BB069;
+}
+
+#manutencao{
+    color: #F19A49;
+}
+
+#danificado{
+    color: #BF2121;
+}
+
+#movido{
+    color: #9937D4;
+}
+
+.containerImage{
+    border: 1px solid rgba(157, 157, 157, 0.42);
+    width: 255px;
+    height: 255px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+
+.containerInfo{
+    justify-content: space-between;
+    display: flex;
+    width: 100px;
+    flex-direction: row;
+}
+
+.containerRight input{
+    width: 203px;
+    height: 25px;
+}
+
+.containerInputs label{
+    font-size: 10px;
+}
+
+.containerInputs div{
+    display: flex;
+}
+
+.containerButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerButtons button{
+    width: 206px;
+    height: 40px;
+    margin: 20px;
+}
+
+.containerButtons #edit{
+  background-color: #0038FF;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  color: #fff;
+  float: right;
+  transition: all 0.2s ease-in-out;
+}
+
+.containerButtons #delete{
+    background-color: #C23229;
+    border: 1px solid #D9D9D9;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+.containerButtons #back{
+    padding: 10px;
+    background: rgba(217, 217, 217, 0.2);
+    color: #0038FF;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    float: left;
+    transition: all 0.2s ease-in-out;
+}
+
+.containerButtons #edit:hover{
+    background-color: #1035b9;
+
+}
+
+.containerButtons #delete:hover{
+    background-color: #b42222
+}
+
+.containerButtons #back:hover{
+    background: rgba(123, 123, 124, 0.2);
+  }
+
+
+@media screen and (max-width: 1100px){
+    .modal-content{
+        width: 800px;
+    }
+    .modal-content input{
+        width: 223px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .modal-content{
+        width: 700px;
+    }
+    .modal-content input{
+        width: 200px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .modal-content{
+        width: 550px;
+    }
+    .modal-content input{
+        width: 140px;
+        height: 25px;
+        margin: 5px;
+    }
+    .modal-content label{
+        margin: 5px;
+    }
+    .containerImage{
+        width: 150px;
+        height: 150px;
+    }
+    .containerUpModal img{
+        width: 150px;
+        height: 150px;
+    }
+    .containerUpModal select{
+        width: 70px;
+        height: 20px;
+        margin: 5px;
+    }
+    .containerButtons button{
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .modal-content{
+        width: 450px;
+        height: 400px;
+    }
+    .modal-content input{
+        width: 100px;
+        height: 25px;
+        margin: 5px;
+    }
+    .modal-content label{
+        margin: 5px;
+        font-size: 10px;
+    }
+    .containerUpModal select{
+        width: 70px;
+        height: 20px;
+    }
+    .containerButtons button{
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .modal-content{
+        width: 300px;
+        
+        
+    }
+    .headerModal h1{
+        font-size: 12px;
+    }
+    .headerModal p{
+        font-size: 10px;
+    }
+    #modelo{
+        width: 90%;
+    }
+    .modal-content input, select{
+        width: 120px;
+        height: 25px;
+        margin: 5px;
+        font-size: 10px;
+    }
+    .modal-content label{
+        font-size: 9px;
+        margin: 5px;
+    }
+    .containerUpModal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .containerUpModal select{
+        width: 250px;        
+        height: 25px;
+        margin: 5px;
+        font-size: 10px;
+    }
+   
+    .containerInputs{
+        justify-content: space-between;
+        display: flex;
+    }
+    .containerButtons button{
+        width: 80px;
+        height: 40px;
+    }
+    .containerImage{
+        width: 80px;
+        height: 80px;
+    }
+    .containerUpModal img{
+        width: 80px;
+        height: 80px;
+    }
+    .containerUpModal textarea{
+        margin: 10px;
+        width: 80%;
+        height: 80px;
+    }
+    .containerUpModal textarea{
+        margin: 5px;
+        width: 250px;
+        
+    }
+    .containerButtons button{
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
