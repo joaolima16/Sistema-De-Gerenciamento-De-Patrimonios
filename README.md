@@ -52,7 +52,7 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 - [@Janaina Costa](https://github.com/janainaacosta)
 - [@Christian Lima](https://github.com/ChristianDev123)
 - [@Jose Freires](https://github.com/JoseFreires)
-- [@Felipe Souza](https://github.com/Lipessousa)
+- [@Felipe Sousa](https://github.com/Lipessousa)
 - [@José Victor](https://github.com/josevsd)
 - [@Larissa Gomes](https://github.com/LarissaGomes333)
 - [@ArturMariano](https://github.com/ArtWarbr)
