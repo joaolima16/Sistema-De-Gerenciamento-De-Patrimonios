@@ -1,6 +1,6 @@
 
 ## SGP - Sistema De Gerenciamento De Patrimônios
-Projeto com a finalidade de facilitar o controle
+Foi desenvolvido um Trabalho de conclusão de curso com a finalidade de facilitar o controle
 e gerenciamento dos Patrimônios localizados nas 
 instituições do Senai.
 
