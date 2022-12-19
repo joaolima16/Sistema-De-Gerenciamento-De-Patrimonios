@@ -59,7 +59,7 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 - [@José Victor](https://github.com/josevsd)
 - [@Larissa Gomes](https://github.com/LarissaGomes333)
 - [@ArturMariano](https://github.com/ArtWarbr)
-- [@AlexMiller](https://github.com/DevAlexMiller)
+- [@Alex Miller](https://github.com/DevAlexMiller)
 - [@Henrique Luz](https://github.com/HariSeldon1993)
 - [@Hugo Lima](https://github.com/HugoNunes87)
 - [@Alice Costa](https://github.com/AliceCostaAsC)
