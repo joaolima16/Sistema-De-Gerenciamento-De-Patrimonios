@@ -73,5 +73,18 @@ execute o comando abaixo.
   docker-compose up -d
   
 ```
-<p align="center">
-  <img  width="500" height="500" src="frontend/src/assets/print1.PNG" >          
+<div align="center">
+  <p align="center">
+  Login & Cadastro
+  </p>
+  <img  width="500" height="300" src="frontend/src/assets/print1.PNG" >         
+  <img  width="500" height="300" src="frontend/src/assets/cadastro.PNG" >         
+ </div>
+ 
+ <div align="center">
+  <p align="center">
+  Departamentos
+  </p>
+  <img  width="500" height="300" src="frontend/src/assets/Departamento.PNG" >         
+  <img  width="500" height="300" src="frontend/src/assets/removesala.PNG" >         
+ </div>
