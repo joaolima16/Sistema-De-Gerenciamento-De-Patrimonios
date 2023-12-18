@@ -65,6 +65,7 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 - [@Alice Costa](https://github.com/AliceCostaAsC)
 - [@Guilherme Morais](https://github.com/guigams)
 - [@Kauã Dias](https://github.com/DiaSKaOs)
+- [@Leonardo Dias](https://github.com/leonardodiaskt)
 ## Instalação
 
 Tenha o Docker e o docker compose instalado na sua maquina depois
