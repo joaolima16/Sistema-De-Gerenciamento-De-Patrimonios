@@ -51,6 +51,7 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 - [@Jaqueline Abreu](https://github.com/Jaqueline28)
 - [@Julio Favero](https://github.com/julio-favero)
 ### Alunos
+- [@Joao Vitor Lima](https://github.com/joaolima16)
 - [@Amanda Ribeiro](https://github.com/amandaribeiro0)
 - [@Janaina Costa](https://github.com/janainaacosta)
 - [@Christian Lima](https://github.com/ChristianDev123)
